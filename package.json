@@ -1,0 +1,22 @@
+{
+  "name": "strava_boards",
+  "version": "1.0.0",
+  "description": "See the strava boards",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomVanBoghout/strava_boards.git"
+  },
+  "keywords": [
+    "strava"
+  ],
+  "author": "Tom Van Boghout",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomVanBoghout/strava_boards/issues"
+  },
+  "homepage": "https://github.com/TomVanBoghout/strava_boards#readme"
+}
