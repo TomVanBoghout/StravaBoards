@@ -39,3 +39,6 @@ jspm_packages
 
 # webstorm
 .idea
+
+# do not store strava data
+strava_config
