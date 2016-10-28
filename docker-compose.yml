@@ -1,0 +1,7 @@
+version: '2'
+services:
+  strava_boards:
+    build: .
+    command: npm -v
+    volumes:
+      - .:/home/app/strava_boards

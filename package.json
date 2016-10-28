@@ -4,6 +4,7 @@
   "description": "See the strava boards",
   "main": "index.js",
   "scripts": {
+    "docker": "docker-compose run strava_boards bash",
     "test": "test",
     "start": "node index.js"
   },
