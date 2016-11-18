@@ -3,5 +3,13 @@ services:
   strava_boards:
     build: .
     command: npm -v
+    depends_on:
+      - couchbase
     volumes:
       - .:/home/app/strava_boards
+    links:
+      - couchbase
+  couchbase:
+    image: couchbase
+    ports:
+      - "8091:8091"

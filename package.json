@@ -4,7 +4,7 @@
   "description": "See the strava boards",
   "main": "index.js",
   "scripts": {
-    "docker": "docker-compose run strava_boards bash",
+    "docker-run": "docker-compose run strava_boards bash",
     "test": "test",
     "start": "node index.js"
   },
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/TomVanBoghout/strava_boards#readme",
   "dependencies": {
-    "strava-v3": "^1.12.1"
+    "strava-v3": "^1.12.1",
+    "nodemon": "^1.10.2"
   }
 }
